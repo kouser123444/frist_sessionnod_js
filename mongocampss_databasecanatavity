@@ -1,1 +1,25 @@
+ server.jas 
+const  mongoose= require('mongoose')
+const  Configdb= require('./config/config.database.js')
 
+mongoose.connect(Configdb.url).then(()=>{
+
+console.log('database cannat')
+})
+.catch(err=>{
+console.log('database  not cannat' , err )
+})
+
+config database 
+module.exports={url:'mongodb://localhost:27017/AptechDB2' }     
+
+
+node ka varoion chak karna hota ha
+
+npm
+
+npm ka full form hai Node Package Manager.
+
+Ye tool hai jo Node.js packages (libraries) install, manage aur update karta hai.
+
+node ka varoion chak karna hota ha
